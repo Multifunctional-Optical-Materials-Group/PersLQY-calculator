@@ -58,14 +58,14 @@ Before running the script, you will need the following files for each PersLQY me
   ...................
   ```
 
-- *Neutral density filter measurement**: Text file containing two columns. First column must correspond to wavelength in nanometers, and second column to intensity. This corresponds to the excitation intensity which not absorbed by the sample.
+- **Neutral density filter measurement**: Text file containing two columns. First column must correspond to wavelength in nanometers, and second column to optical density. This file is used to correct measurements in which a filter is used.
   ```
-  wl	counts
-  390	1159.19031
-  391	5666.96094
-  392	10775.1074
-  393	22261.3691
-  394	46993.4414
+  wl	OD
+  250	0.954242499
+  250.5	0.999999994
+  251	0.367976785
+  251.5	0.221848758
+  252	0.812913357
   ...................
   ```
 
