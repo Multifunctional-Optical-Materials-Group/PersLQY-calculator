@@ -47,3 +47,14 @@ Before running the script, you will need the following files for each PersLQY me
   ...................
   ```
 
+- **Time-dependent excitation reference**: Text file containing two columns. First column must correspond to wavelength in nanometers, and second column to intensity. This corresponds to the excitation intensity which not absorbed by the sample.
+  ```
+  wl	counts
+  390	1159.19031
+  391	5666.96094
+  392	10775.1074
+  393	22261.3691
+  394	46993.4414
+  ...................
+  ```
+
