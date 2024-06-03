@@ -59,7 +59,7 @@ Before running the script, you will need the following files for each PersLQY me
   ```
 
 - **Time-dependent absorption**: Text file containing four eight columns. This correspond to the time-dependent measurement of the excitation intensity which not absorbed by the sample, which is used to calculate the number of photon absorbed during the PersLQY measurement.
-    -sad
+    - afsada
   ```
   t	counts  t0  t1
   0	5.66825056	30	330
