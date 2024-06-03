@@ -1,7 +1,7 @@
 # PersLQY-calculator
 Persistent Luminescence Quantum Yield Calculator
 ## **Instalation**:
-Add ```src``` folder to Matlab path.
+Install python3 and the folowing packages: matplotlib, numpy, pandas and tkinter.
 
 ## Suported Models:
 - Constant refractive index model: $n(\lambda) = n0$
