@@ -16,7 +16,7 @@ Before running the script, you will need the following files:
   422	0.0108732897365367
   ...................
   ```
-- **Persistent luminescence spectra**: Text file containing two columns. First column must correspond to wavelength in nanometers, and second column to intensity. Headers should be included as in the following example:
+- **Persistent luminescence spectra**: Text file containing two columns. First column must correspond to wavelength in nanometers, and second column to intensity.
   ```
   wl	counts
   420	0.003013006393295
@@ -24,6 +24,16 @@ Before running the script, you will need the following files:
   450	0.0221624961338828
   460	0.0573174014402506
   470	0.140815487509773
+  ...................
+  ```
+- **Excitation source spectra**: Text file containing two columns. First column must correspond to wavelength in nanometers, and second column to intensity.
+  ```
+  wl	counts
+  350	666.346619
+  351	646.693481
+  352	0
+  353	608.390564
+  354	594.576599
   ...................
   ```
 
