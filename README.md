@@ -59,12 +59,19 @@ Before running the script, you will need the following files for each PersLQY me
   ```
 
 - **Time-dependent absorption**: Text file containing four eight columns. This correspond to the time-dependent measurement of the excitation intensity which not absorbed by the sample, which is used to calculate the number of photon absorbed during the PersLQY measurement.
-    - afsada
+    - Column 1: Time in seconds
+    - Column 2: Measured intensity
+    - Column 3: File name of the reference for the time-dependent excitation file.
+    - Column 4: Measured wavelength in nanometers.
+    - Column 5: Bandwidth of the measurement in nanometers.
+    - Column 6: $t_0$ in seconds
+    - Column 7: $t_1$ in seconds
+    - Column 8: File name of the neutral density filter file (```0``` if not used).
   ```
-  t	counts  t0  t1
-  0	5.66825056	30	330
-  0.6	5.66825056
-  1.2	11.3365011
+  t	counts	ref_file	wl0	bth	t0	t1	OD
+  0	5.66825056	ref_400_400.txt	400	13	30	330	0
+  0.6	1.88941681
+  1.2	9.44708443
   1.8	11.3365011
   2.4	5.66825056
   ...................
