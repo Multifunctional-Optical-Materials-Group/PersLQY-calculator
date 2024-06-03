@@ -58,6 +58,17 @@ Before running the script, you will need the following files for each PersLQY me
   ...................
   ```
 
+- *Neutral density filter measurement**: Text file containing two columns. First column must correspond to wavelength in nanometers, and second column to intensity. This corresponds to the excitation intensity which not absorbed by the sample.
+  ```
+  wl	counts
+  390	1159.19031
+  391	5666.96094
+  392	10775.1074
+  393	22261.3691
+  394	46993.4414
+  ...................
+  ```
+
 - **Time-dependent absorption**: Text file containing four eight columns. This correspond to the time-dependent measurement of the excitation intensity which not absorbed by the sample, which is used to calculate the number of photon absorbed during the PersLQY measurement.
     - Column 1: Time in seconds
     - Column 2: Measured intensity
