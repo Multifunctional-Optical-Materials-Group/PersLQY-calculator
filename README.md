@@ -47,14 +47,14 @@ Before running the script, you will need the following files for each PersLQY me
   ...................
   ```
 
-- **Reference for the time-dependent excitation**: Text file containing four columns. First column must correspond to time in seconds, second column to intensity, third column to $t_0$. This corresponds to the excitation intensity which not absorbed by the sample.
+- **Reference for the time-dependent excitation**: Text file containing four columns. First column must correspond to time in seconds, second column to intensity, third column to $t_0$ (time in seconds at which excitation starts) and fourth column to $t_1$ (time in seconds at which excitation stops). This is used as a reference for calculating the number of photon absorbed during the PersLQY measurement.
   ```
-  wl	counts
-  390	1159.19031
-  391	5666.96094
-  392	10775.1074
-  393	22261.3691
-  394	46993.4414
+  t	counts	t0	t1
+  0	5.66825056	30	330
+  0.6	5.66825056
+  1.2	11.3365011
+  1.8	11.3365011
+  2.4	5.66825056
   ...................
   ```
 
