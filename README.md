@@ -29,11 +29,21 @@ Before running the script, you will need the following files:
 - **Excitation source spectra**: Text file containing two columns. First column must correspond to wavelength in nanometers, and second column to intensity.
   ```
   wl	counts
-  350	666.346619
-  351	646.693481
-  352	0
-  353	608.390564
-  354	594.576599
+  390	1157.52478
+  391	10705.6113
+  392	19559.9336
+  393	43986.3203
+  394	93591.3359
+  ...................
+  ```
+- **Excitation source + Sample spectra**: Text file containing two columns. First column must correspond to wavelength in nanometers, and second column to intensity. This corresponds to excitation intensity not absorbed by the sample.
+  ```
+  wl	counts
+  390	1159.19031
+  391	5666.96094
+  392	10775.1074
+  393	22261.3691
+  394	46993.4414
   ...................
   ```
 
