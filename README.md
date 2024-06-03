@@ -3,18 +3,11 @@ Persistent Luminescence Quantum Yield Calculator
 ## **Instalation**:
 Install python3 and the folowing python packages: ```matplotlib```, ```numpy```, ```pandas``` and ```tkinter```.
 
-## Suported Models:
-- Constant refractive index model: $n(\lambda) = n0$
-- Real Cauchy Model: $n(\lambda) = A_{1} + 10^{4}\frac{A_{2}}{\lambda^2} + 10^{9}\frac{A_{3}}{\lambda^4}$
-- Imaginary Cauchy Model: $n(\lambda) = A_{1} + 10^{4}\frac{A_{2}}{\lambda^2} + 10^{9}\frac{A_{3}}{\lambda^4} + A_{4}\cdot i + 10^{4}\frac{A_{5}}{\lambda^2}\cdot i + 10^{9}\frac{A_{6}}{\lambda^4}\cdot i$
-- Forouhi-Bloomer model: $n(\lambda) = n_0 + \sum_{j=1,2,3,4} \frac{B_j\cdot (E(\lambda)-E_j) + C_j}{(E(\lambda)-E_j)^2 + G_j^2} + \frac{f_j\cdot (E(\lambda)-E_g)^2\cdot \delta(E(\lambda)-E_g)}{(E(\lambda)-E_j)^2+G_j^2}\cdot i$, being $\delta$ the step function.
-- Linear gradient model: $n_j(\lambda)= \frac{n_2-n_1}{N-1}\cdot j$, being $N$ the number of sublayers.
-
 ## **Usage**:
-ReTraF function call takes the following form:
-```
-[models_out,N,D,Data_exp,Data_theor,xbest,foptions_out] = ReTraF(wl,theta,models,data_file,foptions)
-```
+Before running the script, you will need the following files:
+
+- Photoluminescence spectra:
+
 ## Input arguments:
 
 - ```data_file``` full path to .mat file containing Reflectance and Transmitance data to fit. Variables inside this file must be:
