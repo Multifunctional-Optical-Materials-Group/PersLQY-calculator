@@ -67,8 +67,9 @@ Before running the script, you will need the following files for each PersLQY me
     - Column 6: $t_0$ in seconds
     - Column 7: $t_1$ in seconds
     - Column 8: File name of the neutral density filter file (```0``` if not used).
+
+      
   ```
-  
   t	counts	ref_file	wl0	bth	t0	t1	OD
   0	5.66825056	ref_400_400.txt	400	13	30	330	0
   0.6	1.88941681
