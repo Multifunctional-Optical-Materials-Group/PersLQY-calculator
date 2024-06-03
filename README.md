@@ -4,7 +4,7 @@ Persistent Luminescence Quantum Yield Calculator
 Install ```python3``` and the folowing python packages: ```matplotlib```, ```numpy```, ```pandas``` and ```tkinter```.
 
 ## **Usage**:
-Before running the script, you will need the following files:
+Before running the script, you will need the following files for each PersLQY measurement:
 
 - **Photoluminescence spectra**: Text file containing two columns. First column must correspond to wavelength in nanometers, and second column to intensity. Headers should be included as in the following example:
   ```
