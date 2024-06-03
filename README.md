@@ -6,7 +6,15 @@ Install python3 and the folowing python packages: ```matplotlib```, ```numpy```,
 ## **Usage**:
 Before running the script, you will need the following files:
 
-- Photoluminescence spectra:
+- Photoluminescence spectra: Text file containing two columns. First column must correspond to wavelength in nanometers, and second column to intensity.
+  ```
+  wl	counts
+420	0.00899413512876429
+420.5	0.00987102886128422
+421	0.0096912224891284
+421.5	0.0102467026352578
+422	0.0108732897365367
+  ```
 
 ## Input arguments:
 
