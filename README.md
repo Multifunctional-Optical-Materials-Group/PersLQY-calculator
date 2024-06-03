@@ -14,9 +14,7 @@ Before running the script, you will need the following files:
   421	0.0096912224891284
   421.5	0.0102467026352578
   422	0.0108732897365367
-  .  .
-  .  .
-  .  .
+  ......
   ```
 
 ## Input arguments:
