@@ -89,3 +89,23 @@ Before running the script, you will need the following files for each PersLQY me
   2.4	5.66825056
   ...................
   ```
+
+- **Time-dependent emission**: Text file containing four seven columns. This correspond to the time-dependent measurement of the emission intensity, which is used to calculate the number of photon emitted during the PersLQY measurement.
+    - Column 1: Time in seconds
+    - Column 2: Measured intensity
+    - Column 3: Measured wavelength in nanometers.
+    - Column 4: Bandwidth of the measurement in nanometers.
+    - Column 5: $t_0$ in seconds
+    - Column 6: $t_1$ in seconds
+    - Column 7: File name of the neutral density filter file (```0``` if not used).
+
+      
+  ```
+  t	counts	wl0	bth	t0	t1	OD
+  0	15.9283524	524	13	30	31.8	0
+  0.6	17.3763847
+  1.2	17.3763847
+  1.8	10.1362247
+  2.4	13.0322886
+  ...................
+  ```
