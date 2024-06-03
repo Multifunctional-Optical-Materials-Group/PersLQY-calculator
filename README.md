@@ -6,7 +6,7 @@ Install python3 and the folowing python packages: ```matplotlib```, ```numpy```,
 ## **Usage**:
 Before running the script, you will need the following files:
 
-- Photoluminescence spectra: Text file containing two columns. First column must correspond to wavelength in nanometers, and second column to intensity. Headers should be included as in the following example:
+- **Photoluminescence spectra**: Text file containing two columns. First column must correspond to wavelength in nanometers, and second column to intensity. Headers should be included as in the following example:
   ```
   wl	counts
   420	0.00899413512876429
@@ -16,7 +16,7 @@ Before running the script, you will need the following files:
   422	0.0108732897365367
   ...................
   ```
-- Persistent luminescence spectra: Text file containing two columns. First column must correspond to wavelength in nanometers, and second column to intensity. Headers should be included as in the following example:
+- **Persistent luminescence spectra**: Text file containing two columns. First column must correspond to wavelength in nanometers, and second column to intensity. Headers should be included as in the following example:
   ```
   wl	counts
   420	0.003013006393295
