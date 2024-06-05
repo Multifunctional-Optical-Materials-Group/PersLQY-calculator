@@ -123,4 +123,4 @@ In the folder ```examples``` there are the following files:
 - ```sample_400_524.txt```: Time-dependent  emission intensity.
 
 After running ```PersLQY.bat``` file, the folowing result should appear:
-![screenshot](result.png)
+![screenshot](main/examples/result.png)
