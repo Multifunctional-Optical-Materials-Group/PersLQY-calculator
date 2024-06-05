@@ -121,3 +121,6 @@ In the folder ```examples``` there are the following files:
 - ```OD1.txt```: Optical density of a filter.
 - ```sample_400_400.txt```: Time-dependent  excitation source + sample intensity.
 - ```sample_400_524.txt```: Time-dependent  emission intensity.
+
+After running ```PersLQY.bat``` file, the folowing result should appear:
+![screenshot](result.png)
