@@ -126,7 +126,7 @@ After running ```PersLQY.bat``` file, the folowing result should appear:
 <p align="center">
   <img height="300" src=examples/result.png>
 </p>
-Also, an image named ´´´measurement.png´´´ should appear in the directory of your measurements:
+Also, an image named ```measurement.png``` should appear in the directory of your measurements:
 <p align="center">
-  <img height="300" src=examples/measurement.png>
+  <img height="500" src=examples/measurement.png>
 </p>
