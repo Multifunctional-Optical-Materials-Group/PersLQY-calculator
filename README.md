@@ -110,3 +110,14 @@ Before running the script, you will need the following files for each PersLQY me
   2.4	13.0322886
   ...................
   ```
+  
+## **Example**:
+In the folder ```examples``` there are the following files:
+- ```LumS.txt```: Photoluminescence spectra.
+- ```PersS.txt```: Persistent luminescence spectra.
+- ```source_e400.txt```: Excitation source reference spectra.
+- ```source_SAO_e400.txt```: Excitation source + sample spectra.
+- ```ref_400_400.txt```: Reference for the time-dependent excitation.
+- ```OD1.txt```: Optical density of a filter.
+- ```sample_400_400.txt```: Time-dependent  excitation source + sample intensity.
+- ```sample_400_524.txt```: Time-dependent  emission intensity.
