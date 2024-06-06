@@ -1,22 +1,23 @@
 cff-version: 1.2.0
-preferred-citation: article
 message: "If you use this software, please cite it as below."
-authors:
-- family-names: "Castaing"
-  given-names: "Victor"
-  orcid: "https://orcid.org/0000-0002-8426-338X"
-- family-names: "Romero"
-  given-names: "Manuel"
-  orcid: "https://orcid.org/0000-0002-7594-1361"
-- family-names: "Rytz"
-  given-names: "Daniel"
-- family-names: "Lozano"
-  given-names: "Barbero"
-  orcid: "https://orcid.org/0000-0002-0235-4924"
-- family-names: "Míguez"
-  given-names: "Hernán"
-  orcid: "https://orcid.org/0000-0003-2925-6360"
-title: "Quantification of Emission Efficiency in Persistent Luminescent Materials"
-doi: XXXX
-date-released: 00-00-0000
-url: "XXX"
+preferred-citation:
+  type: article
+  authors:
+  - family-names: "Castaing"
+    given-names: "Victor"
+    orcid: "https://orcid.org/0000-0002-8426-338X"
+  - family-names: "Romero"
+    given-names: "Manuel"
+    orcid: "https://orcid.org/0000-0002-7594-1361"
+  - family-names: "Rytz"
+    given-names: "Daniel"
+  - family-names: "Lozano"
+    given-names: "Barbero"
+    orcid: "https://orcid.org/0000-0002-0235-4924"
+  - family-names: "Míguez"
+    given-names: "Hernán"
+    orcid: "https://orcid.org/0000-0003-2925-6360"
+  title: "Quantification of Emission Efficiency in Persistent Luminescent Materials"
+  doi: XXXX
+  date-released: 00-00-0000
+  url: "XXX"
