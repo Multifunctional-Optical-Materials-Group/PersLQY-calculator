@@ -1,7 +1,7 @@
 # PersLQY-calculator
 Persistent Luminescence Quantum Yield Calculator
 ## **Instalation & Usage**:
-- Install ```python3```
+- Install ```python3```.
 - Install the folowing python packages: ```matplotlib```, ```numpy```, ```pandas``` and ```tkinter```. This can be done in Windows by running the ```install.bat``` file.
 - Run the ```PersLQY_calc.py``` in python. This can be done in Windows by running the ```PersLQY.bat``` file.
 
