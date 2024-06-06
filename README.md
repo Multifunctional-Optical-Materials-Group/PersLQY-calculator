@@ -2,7 +2,7 @@
 Persistent Luminescence Quantum Yield Calculator
 
 ## **Citation**:
-If you use this software, please cite it as : ```XXXXX```
+If you use this software, please cite it as : ***XXXXX***
 
 ## **Instalation & Usage**:
 - Install ```python3```.
