@@ -18,11 +18,11 @@ preferred-citation:
     given-names: "Hernán"
     orcid: "https://orcid.org/0000-0003-2925-6360"
   title: "Quantification of Emission Efficiency in Persistent Luminescent Materials"
-  doi: XXXX
+  doi: "XXXX"
   journal: "Advanced Optical Materials"
-  month: X
-  start: X # First page number
-  end: X # Last page number
-  issue: X
-  volume: X
+  month: 1
+  start: 1 # First page number
+  end: 1 # Last page number
+  issue: 1
+  volume: 1
   year: 2024
