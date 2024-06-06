@@ -1,11 +1,11 @@
 # PersLQY-calculator
 Persistent Luminescence Quantum Yield Calculator
-## **Instalation**:
+## **Instalation & Usage**:
 - Install ```python3```
 - Install the folowing python packages: ```matplotlib```, ```numpy```, ```pandas``` and ```tkinter```. This can be done in Windows by running the ```install.bat``` file.
 - Run the ```PersLQY_calc.py``` in python. This can be done in Windows by running the ```PersLQY.bat``` file.
 
-## **Usage**:
+## **Data files**:
 Before running the script, you will need the following files for each PersLQY measurement:
 
 - **Photoluminescence spectra**: Text file containing two columns. First column must correspond to wavelength in nanometers, and second column to intensity. Headers should be included as in the following example:
