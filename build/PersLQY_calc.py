@@ -126,7 +126,9 @@ i_t1A = (np.abs(Abs.t - Abs_t1)).argmin()
 int_Abs2 = FAbs*np.sum(Abs.counts[i_t0A:i_t1A+1])*ODc_abs # Abs integration
 
 if (t1!=Abs_t1)|(t1!=Abs_ref_t1) :
-    int_Abs = int_Abs1*(t1-t0)/(Abs_ref_t1-Abs_ref_t0) - int_Abs2*(t1-t0)/(Abs_t1-Abs_t0)
+    int_Abs1 = int_Abs1*(t1-t0)/(Abs_ref_t1-Abs_ref_t0)
+    int_Abs2 = int_Abs2*(t1-t0)/(Abs_t1-Abs_t0)
+    int_Abs = int_Abs1 - int_Abs2
 else :
     int_Abs = int_Abs1 - int_Abs2
     
@@ -138,8 +140,8 @@ int_total = np.sum(Lum_Pers_c[i_t0:])
 #int_Pers = np.trapz(x=Emi.t[i_t1+1:],y=Lum_Pers_c[i_t1+1:])
 int_Pers = np.sum(Lum_Pers_c[i_t1+1:])
 
-QY = int_total/int_Abs*100
-PersQY = int_Pers/int_Abs*100
+TotalQY = int_total/int_Abs*100
+PersLQY = int_Pers/int_Abs*100
 
 
 
@@ -181,6 +183,6 @@ plt.savefig(initdir+"/measurement.png")
 root = tk.Tk()
 root.title("Results")
 root.geometry("400x300")
-tk.Label(root, text=f"\n QY = {QY : .2f}%  \n\n\n PersLQY = {PersQY : .2f}% \n", font=("Arial", 25)).pack()
+tk.Label(root, text=f"\n TotalQY = {TotalQY : .2f}%  \n\n\n PersLQY = {PersLQY : .2f}% \n", font=("Arial", 25)).pack()
 tk.Button(root, text='OK', width=100, height=50, anchor="c",borderwidth=5, command=root.quit).pack()
 root.mainloop()
