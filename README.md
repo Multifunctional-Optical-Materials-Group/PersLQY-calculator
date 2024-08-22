@@ -4,7 +4,7 @@ Persistent Luminescence Quantum Yield Calculator
 ## **Citation**:
 
 This code is part of ***Quantification of Emission Efficiency in Persistent Luminescent Materials***, a work which is currently under revision process in [Advanced Optical Materials](https://onlinelibrary.wiley.com/journal/21951071).
-If you use this software for publication purposes, please contact the authors. For updates check our [group website](https://mom.icms.us-csic.es/). 
+If you use this software for publication purposes, please contact the authors. Check our [group website](https://mom.icms.us-csic.es/) for updates. 
 
 ## **Instalation & Usage**:
 - Install ```python3```.
