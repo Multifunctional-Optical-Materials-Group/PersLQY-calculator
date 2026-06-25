@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "perslqy"
+version = "0.1.0"
+description = "Persistent Luminescence Quantum Yield Calculator"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "matplotlib>=3.8",
+    "numpy>=1.26",
+    "pandas>=2.1",
+]
+
+[project.gui-scripts]
+perslqy = "perslqy.app:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
