@@ -126,8 +126,8 @@ def spectral_correction(
     if stop - start < 2:
         raise ValueError("The selected spectral interval contains too few points.")
 
-    full_integral = np.trapz(y=counts, x=wavelengths)
-    band_integral = np.trapz(y=counts[start:stop], x=wavelengths[start:stop])
+    full_integral = np.trapezoid(y=counts, x=wavelengths)
+    band_integral = np.trapezoid(y=counts[start:stop], x=wavelengths[start:stop])
 
     if np.isclose(band_integral, 0.0):
         raise ValueError("A spectral correction cannot be calculated: zero integral.")
@@ -181,8 +181,8 @@ def filter_correction(
         source_spectrum["counts"].to_numpy(dtype=float),
     )
 
-    numerator = np.trapz(y=interpolated_source, x=selected_wavelength)
-    denominator = np.trapz(
+    numerator = np.trapezoid(y=interpolated_source, x=selected_wavelength)
+    denominator = np.trapezoid(
         y=transmission[start:stop] * interpolated_source,
         x=selected_wavelength,
     )
